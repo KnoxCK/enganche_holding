@@ -1,1 +1,63 @@
+.wrapper {
+	background-position: cover;
+	height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    //border: 10px solid #2C6BA4;
+}
+.enganche-box {
+	height: 200px;
+	img {
+		width: 20em;
+		padding: 10px 0;
+	}
+	p {
+		color: #777776;
+		letter-spacing: 7px;
+	    font-weight: lighter;
+	    margin-top: 28px;
+	    font-size: 30px;
+	    padding-left: 7px;
+	}
+	h1, h2, h3, h5 {
+		color: #1C0F13;
+		font-weight: lighter;
+		letter-spacing: 1px;
+	}
+	a {
+		color: #777776;
+		font-weight: lighter;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #2C6BA4;
+	}
+	.address {
+		margin-top: 35px;
+	}
+	.coming-soon {
+		margin-top: 35px;
+	}
+}
+@media only screen and (max-width:650px){
+	.enganche-box {
+		img {
+			width: 20em;
+			padding: 5px 0;
+		}
+	}
+}
+@media only screen and (max-width:490px){
+	.enganche-box {
+		padding: 0;
+		img {
+			width: 15em;
+			padding: 2.5px 0;
+		}
+	}
+}
+
+
 // Specific CSS for your home-page
