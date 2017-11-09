@@ -5,58 +5,60 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    //border: 10px solid #2C6BA4;
+    //border: 10px dashed #2F2D2E
 }
-.enganche-box {
-	height: 200px;
+.content-box {
+	    height: 200px;
 	img {
 		width: 20em;
-		padding: 10px 0;
+    	padding: 12px 10px;
+    	border: 6px solid #2F2D2E;
+    	border-radius: 15px 15px 15px 15px;
 	}
-	p {
-		color: #777776;
-		letter-spacing: 7px;
-	    font-weight: lighter;
-	    margin-top: 28px;
-	    font-size: 30px;
-	    padding-left: 7px;
-	}
-	h1, h2, h3, h5 {
-		color: #1C0F13;
+	h4 {
+		color: #2F2D2E;
 		font-weight: lighter;
 		letter-spacing: 1px;
+		margin-left: 7px;
+		margin-top: 30px;
+	}
+	p {
+		color: #2F2D2E;
+		letter-spacing: 1px;
+	    font-weight: lighter;
+	    font-size: 20px;
+	    margin-left: 7px;
+	    margin-top: 26.5px;
 	}
 	a {
-		color: #777776;
+		color: #2F2D2E;
 		font-weight: lighter;
 		text-decoration: none;
 	}
 	a:hover {
-		color: #2C6BA4;
-	}
-	.address {
-		margin-top: 35px;
-	}
-	.coming-soon {
-		margin-top: 35px;
+		color: #2F2D2E;
+		opacity: 0.6;
 	}
 }
 @media only screen and (max-width:650px){
-	.enganche-box {
+	.content-box {
 		img {
 			width: 20em;
-			padding: 5px 0;
 		}
 	}
+	// .wrapper {
+	// 	border: 4px dashed #2F2D2E;
+	// }
 }
 @media only screen and (max-width:490px){
-	.enganche-box {
-		padding: 0;
+	.content-box {
 		img {
 			width: 15em;
-			padding: 2.5px 0;
 		}
 	}
+	// .wrapper {
+	// 	border: 4px dashed #2F2D2E;
+	// }
 }
 
 
